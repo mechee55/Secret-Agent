@@ -62,10 +62,6 @@ ul {
 	justify-content: space-between;
 }
 
-.products {
-	
-
-}
 .items {
 	display: flex;
 	justify-content: space-between;
@@ -108,7 +104,18 @@ ul {
 	padding: 1rem 2rem;
 }
 
-
 .info p {
 	color: black;
+}
+
+.footer {
+	background-color: black;
+	height: 5rem;
+
+}
+
+.footer p {
+	text-align: left;
+	
+	
 }

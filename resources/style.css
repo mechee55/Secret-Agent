@@ -138,7 +138,7 @@ ul {
 
 .footer {
 	background-color: black;
-	height: 5rem;
+	height: 15rem;
 	display: flex;
 	align-items: center;
 
@@ -196,7 +196,7 @@ ul {
 
 	} 
 	
-	.info {
+	.box {
 		width: 90%;
 		margin: 0.5rem auto;
 

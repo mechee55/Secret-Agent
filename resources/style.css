@@ -76,6 +76,10 @@ ul {
 
 }
 
+.nav-mobile {
+	display: none;
+
+}
 
 
 .items {
@@ -141,8 +145,14 @@ ul {
 }
 
 @media only screen and (max-width: 1024px), (orientation: portrait) {
+	
 	li {
 		display: none;
+
+	}
+
+	.nav-mobile li {
+		display: inline;
 	}
 
 	.item {
@@ -178,6 +188,7 @@ ul {
 
 	.box {
 		width: 90%;
+
 
 	}
 

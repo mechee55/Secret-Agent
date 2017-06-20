@@ -12,11 +12,14 @@ body {
 
 }
 
-.header {
+.header  {
 	background-color: black;
 	padding-top: 0.66rem;
 	padding-bottom: 0.66rem;
+	
+
 }
+
 
 .header img {
 	height: 1.5rem;
@@ -27,6 +30,7 @@ body {
 .header span {
 	font-size: 1rem;
 
+
 }
 
 .main  {
@@ -34,7 +38,7 @@ body {
 	height: 25rem;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: center;
+	background-size: cover;
 
 }
 
@@ -135,4 +139,31 @@ ul {
 	align-items: center;
 
 }
+
+@media only screen and (max-width: 1024px), (orientation: landscape) {
+	.item img {
+		width: 47%;	
+	
+	}
+}
+
+
+
+
+@media only screen and (max-width: 470px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

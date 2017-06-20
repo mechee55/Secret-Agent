@@ -17,9 +17,7 @@ body {
 	padding-top: 0.66rem;
 	padding-bottom: 0.66rem;
 	
-
 }
-
 
 .header img {
 	height: 1.5rem;
@@ -29,15 +27,20 @@ body {
 
 .header span {
 	font-size: 1rem;
-
-
 }
+
+.name {
+	display: flex;
+	align-items: center;
+}
+
+
 
 .main  {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 	height: 25rem;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: cover;
 
 }
@@ -78,9 +81,6 @@ ul {
 .items {
 	display: flex;
 	justify-content: space-between;
-
-	
-
 
 }
 
@@ -140,17 +140,53 @@ ul {
 
 }
 
-@media only screen and (max-width: 1024px), (orientation: landscape) {
-	.item img {
-		width: 47%;	
-	
+@media only screen and (max-width: 1024px), (orientation: portrait) {
+	li {
+		display: none;
+	}
+
+	.item {
+		width: 47%;
+		
 	}
 }
 
 
-
-
 @media only screen and (max-width: 470px) {
+	.main {
+		height: 15rem;
+	}
+
+
+	.new h4 {
+		font-size: 0.77rem;
+	}
+
+	.new h3 {
+		font-size: 1rem;
+	}
+
+	.new {
+		padding: 1rem 2rem;
+		top: 10rem;
+	}
+
+	.item {
+		width: 90%;
+
+	}
+
+	.box {
+		width: 90%;
+
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+
+
 
 
 }

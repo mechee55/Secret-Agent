@@ -76,9 +76,9 @@ ul {
 
 }
 
-.nav-mobile {
+.nav-mobile li {
 	display: none;
-
+	
 }
 
 
@@ -148,17 +148,22 @@ ul {
 	
 	li {
 		display: none;
-
 	}
 
 	.nav-mobile li {
-		display: inline;
+		display: flex;
+		justify-content: space-around;
 	}
 
 	.item {
-		width: 47%;
+		width: 47%;	
 		
 	}
+
+	.sunglasses {
+		display: none;
+	}
+
 }
 
 
@@ -186,19 +191,29 @@ ul {
 
 	}
 
+	.watch, .sunglasses {
+		display: none; 
+
+	} 
+	
 	.box {
 		width: 90%;
 
-
 	}
+
+	.information .container {
+		display: block;
+	}
+
+	.box .hours {
+		margin-top: 0.5rem;
+	}
+
+
 
 	.footer {
 		text-align: center;
 	}
-
-
-
-
 
 }
 
